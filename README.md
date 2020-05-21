@@ -5,10 +5,10 @@
 ## Marketing Page Mockups
 
 ### Home Page
-![img/home_page.png]
+![home page mockup](img/home_page.png)
 
 ### About Page
-![img/about_page.png]
+![about page mockup](img/about_page.png)
 
 ### Pricing Page
-![img/pricing_page.png]
+![pricing page mockup](img/pricing_page.png)
