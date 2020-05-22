@@ -3,6 +3,8 @@ header {
     justify-content: space-between;
     flex-direction: row;
     font-size: 1.15rem;
+    align-items: center;
+
     nav {
 
         ul {
@@ -11,6 +13,32 @@ header {
             li {
                 margin-left: 2rem;
             }
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: @darkgray;
+
+        &:hover {
+            color: @gray;
+        }
+    }
+
+    .primary-button {
+        padding: 0.5rem 1rem;
+        line-height: 1.25rem;
+        justify-content: center;
+        border: 1px solid @button-bg;
+        border-radius: 0.375rem;
+        text-decoration: none;
+        background-color: @button-bg;
+        color: @white;
+
+        &:hover {
+            color: @white;
+            background-color: @orange;
+            border: 1px solid @orange;
         }
     }
 }
