@@ -221,6 +221,33 @@ header a {
 header a:hover {
   color: #6b7280;
 }
+footer {
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+  font-size: 0.85rem;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+footer ul li {
+  margin-left: 2.5rem;
+}
+footer ul li:first-of-type {
+  margin-left: 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #161e2e;
+}
+footer ul li a:hover {
+  color: #6b7280;
+}
+footer p {
+  text-align: center;
+  font-size: inherit;
+}
 .hero {
   padding-top: 2rem;
 }
