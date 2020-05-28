@@ -5,6 +5,9 @@ header {
     font-size: 1.15rem;
     align-items: center;
 
+    .icon {
+        display: none;
+    }
     nav {
 
         ul {
@@ -22,6 +25,33 @@ header {
 
         &:hover {
             color: @gray;
+        }
+    }
+
+    @media @tablet {
+        flex-direction: column;
+        justify-content: space-around;
+
+        .logo {
+            margin-bottom: 0.5rem;
+        }
+
+        nav {
+            margin-bottom: 1.5rem;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    margin: auto;
+                    margin-bottom: 0.5rem;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
         }
     }
 }
